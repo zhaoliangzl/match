@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+
+
+        #head{
+ 	        background-color:#ADADAD; 
+            width:100%;
+        	height:50px;
+        	margin:0px;
+        	position: relative;z-index:19999;
+
+        }
+        #title{
+	       font-family:微软雅黑;
+        	font-size:40px;
+        	display:inline;
+        }
+        #head_list_h{
+	        display:inline;
+        	font-family: Georgia, serif;
+        	float:right;
+        }    
+        #head_list_h li{
+	       display:inline-block;
+           margin: 5px,50px,5px,50px;
+           font-family: Georgia, serif; 
+           width:80px;
+           font-size:20px;
+        	color:white;
+
+        }
+        #head_list_h li div{
+	        display:none;
+        	position: absolute;
+        	width:80px;
+        }
+        #head ul li div a{
+	        display:block;
+        	background-color:PINK;
+        	font-family: Georgia, serif;
+        	font-size:20px;        	
+        }
+        #head_list_h li:hover
+        { 
+        	background-color:#003e3e;
+        }  
+        
+        #body{
+        	width:70%;
+        	height:500px;
+			position: absolute;
+        	margin:10px;
+        	display:inline; 
+        }
+        #body-left{
+			margin-top:200px;
+        	float:left;
+        	width:5%;
+        	height:100px;
+        	display:inline;
+        }
+        #pic{
+			display:inline;
+        	margin-left:14px;
+        	width:100%;
+        	height:500px;
+        	margin-right:10px;
+        }
+        #pic img{
+ 			width:86.99%;
+        	height:500px;
+        }
+		#body-right{
+			margin-top:200px;
+			float:right;
+        	width:5%;
+        	height:100px;
+        }
+        #left-button{
+			width:100%;
+        	height:100px;      	
+        }
+ 		#right-button{
+			width:100%;
+        	height:100px;       	
+        }
+        #body-main{
+			width:27%;
+        	height:500px;
+        	background:url(../img/a0.jpg) ;
+        	float:right;
+        	margin-top:5px;
+        	margin-left:65%;        	
+        }
+        #body-main h1{
+			text-align:center;
+        	margin-top:80px;
+        }
+        #login{
+			float:center;
+        	margin:0 auto; 
+        	width:70%;  
+        	display:block;     	
+        }
+        #foot{
+			background-color:#000;       	
+        	width:99%;
+        	height:130px;
+        	margin-top:520px;
+        	margin-left:10px;
+        	margin-right:10px;
+        	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;
+        	color:#f00;
+        	
+        }
+        #xc{
+			margin-left:10px;
+        	color:white;
+        	font-size:40px;
+        	display:inline;
+        	font-family:微软雅黑;
+        }
+        #js{
+			margin-left:30px;
+        	color:white;
+        }
+        
